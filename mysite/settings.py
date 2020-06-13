@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 SITE_ID = 1
 
 INSTALLED_APPS = [
+    'references.apps.ReferencesConfig',
     'account.apps.AccountConfig',
     'taggit',
     'blog.apps.BlogConfig',
@@ -48,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.postgres',
     'crispy_forms',
     'rest_framework',
-    'taggit_serializer'
+    'taggit_serializer',
 ]
 
 MIDDLEWARE = [
